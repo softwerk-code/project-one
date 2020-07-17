@@ -1,0 +1,376 @@
+#firstconte{
+    width: 100%;
+    height:500px;
+    
+}
+#minifirstconte{
+   /* background-image: url("images/1.jpg");
+   background-size: cover;*/
+    max-width: 100%;
+    min-height: 100%;
+    background: url("images/1.jpg") no-repeat center;
+    background-size: cover;
+    height:auto;
+    position: relative;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: forte;
+    font-weight: normal;
+    font-size: 30pt;
+    margin-bottom: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 25px;
+    font-size: 10pt;
+    color: white;
+    margin-left: 10px;
+    
+}
+#red{
+    color: red;
+}
+nav{
+   
+    text-align: center;
+    margin-top: 0;
+    border-bottom: 0.1px solid white;
+    padding-top: 1pt;
+    margin-bottom: 0;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 20px;
+    font-weight: normal;
+    margin-top: 0;
+    
+}
+
+#box{
+    width: 200px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+    position:relative;
+    bottom:30px;
+    border: 1px solid white;
+    color: lightgrey;
+    }
+#but{
+    padding: 15px 25px;
+    background-color: white;
+    border: none;
+    position: relative;
+    bottom: 60px;
+    left: 41%;
+    margin: 0 auto;
+}
+
+#secondcont h2{
+    color:black;
+    text-align: center;
+    font-family: 'Segoe script';
+    font-weight: normal;
+    font-size: 30pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 25px;
+}
+.pics2{
+    width: 300px;
+    float: left;
+   
+    margin-left: 5px;
+}
+.pics2 p{
+    color: lightgray;
+    margin-left: 5px;
+}
+
+.pics2 img{
+    margin-left: 50px;
+}
+.tir{
+    clear: both;
+}
+
+#advantages{
+    background-color: lightgray;
+    width: 230px;
+    height: 300px;
+    float: right;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.piv{
+    width: 400px;
+    margin-right: 3px;
+}
+/* i didnt get d desired screen resizing for media query*/
+@media only screen and (min-width:300px ), only screen and (height:800px){ 
+    
+#secondcont{
+    background-color:white;
+    height: 400px;
+    width: 100%;
+}
+}
+#advantages ul li{
+    list-style-image: url("images/next.png");
+    margin-bottom: 5px;
+    padding-bottom: 1px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h6{
+    color: red;
+    margin-bottom: 0;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+
+.services{
+    height: 300px;
+    background-color: lightgray;
+    margin-top: 0;
+}
+
+.miniservices{
+    float: right;
+    width: 40%;
+    margin-right: 90px;
+}
+
+.miniimg{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    float: right;
+    
+  
+}
+
+.rightimg{
+    clear: both;
+}
+.rightimg2{
+    float: right;
+}
+
+#mini{
+    width: 30%;
+     float: left;
+     
+     margin-left: 50px;
+}
+
+.faint{
+    color: grey;
+}
+
+#founder{
+    background-image: url("images/1.jpg");
+    background-position: center;
+    background-position-y: 4px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    position: relative;
+}
+
+section p{
+    color: lightgray;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 70px;
+    font-variant: small-caps;
+    position: relative;
+}
+
+#found{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+} 
+
+#nobold{
+    color: lightgray;
+    font-weight: normal;
+}
+
+.dot{
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+    top:20px;
+    float: right;
+}
+.tod{
+    background-color: orangered;
+}
+
+#fordots{
+    background-color: white;
+    width: 50%;
+    border-left: 50%;
+}
+
+#events{
+    
+    width: 100%;
+
+}
+#events h2{
+    color: black;
+}
+.pictile{
+    margin:0 auto;
+   
+    max-width: 300px;
+    padding-left: 200px;
+    position: relative;
+    margin-bottom: 0;
+    height: 168px;
+}
+.minipictile{
+    width: 250px;
+    background-color: lightgrey;
+}
+
+#deeporange{
+    position: relative;
+    right: 200px;
+    bottom: 170px;
+    z-index: 2;
+    border-bottom: 1px solid orangered;
+}
+.range{
+    color: orangered;
+}
+#green{
+    position: relative;
+    left: 220px;
+    bottom: 170px;
+    z-index: 2;
+    border-bottom: 1px solid green;
+
+}
+.reen{
+    color: green;
+}
+#orange{
+    position: relative;
+    right: 200px;
+    bottom: 170px;
+    z-index: 2;
+    border-bottom: 1px solid darkorange;
+}
+.ange{
+    color: darkorange;
+}
+
+.one{
+    
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.two{
+   
+    margin-left: 15px;
+    font-size: small;
+}
+.minipictile p{
+   
+    margin-top: 0;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+.bold{
+    font-weight: bold;
+}
+#blackcont{
+    background-color:#4d4d4d;
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+}
+.summary{
+    
+    width: 21%;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+}
+.pics-left{
+    float: left;
+}
+#pics4{
+    width: 120px;
+    margin:0 auto;
+}
+
+.summaryven{
+    width: 10%;
+}
+.summaryven p{
+    font-family: vivaldi;
+    font-size: 30px;
+    margin-top: 0;
+}
+#my-pics{
+    margin-left: 10px;
+    width: 20%;
+}
+.border{
+    border-bottom: 1px solid red;
+}
+.dara p{
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+footer{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+#redtext{
+    color: red;
+}
+
+#slash{
+    border-left: 2px solid white;
+    padding-left: 5px;
+}
+
+.cool{
+    color: lightgray;
+    
+}
